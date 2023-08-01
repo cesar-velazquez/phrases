@@ -59,7 +59,12 @@
     z-index: 2;
 }
 
-.footer {
-    width: 100%;
+.footer {    
     text-align: center;
+    background-color: #a578c9;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }

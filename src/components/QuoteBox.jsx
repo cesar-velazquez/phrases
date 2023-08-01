@@ -36,7 +36,7 @@ export const QuoteBox = ({ handleChangeQuote, quote }) => {
 
             <footer className='footer'>
                 <h4 className='author'>Fuente: {quote.author}</h4>
-            </footer>
+            {/* </footer> */}
             <svg className='vector' width="301" height="118" viewBox="0 0 301 118" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M150.523 300.982C233.585 300.982 300.921 233.719 300.921 150.745C300.921 67.7716 233.585 0.508301 150.523 0.508301C67.4612 0.508301 0.125977 67.7716 0.125977 150.745C0.125977 233.719 67.4612 300.982 150.523 300.982Z" fill="url(#paint0_radial_171_1558)" />
                     <defs>
@@ -46,6 +46,7 @@ export const QuoteBox = ({ handleChangeQuote, quote }) => {
                         </radialGradient>
                     </defs>
                 </svg>
+                </footer>
         </section>        
     );
 };
