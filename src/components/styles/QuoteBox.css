@@ -53,7 +53,8 @@
     color: #25063f;
     font-family: Arial, sans-serif;
     font-size: 13px;
-    padding: 2rem;
+    padding: 1rem;   
+    margin-bottom: 3%; 
     position: sticky;
     z-index: 2;
 }
