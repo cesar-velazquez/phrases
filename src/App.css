@@ -1,0 +1,17 @@
+.App{
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.bg1{
+    background-image: url("/img/imgfondos/fondo1.jpg");
+}
+.bg2{
+    background-image: url("/img/imgfondos/fondo2.jpg");
+}
+.bg3{
+    background-image: url("/img/imgfondos/fondo3.jpg");
+}
+.bg4{
+    background-image: url("/img/imgfondos/fondo4.jpg");
+}
