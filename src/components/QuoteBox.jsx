@@ -32,7 +32,8 @@ export const QuoteBox = ({ handleChangeQuote, quote, phrasesCelebres, isModeSpac
             {isModeSpace ?
                 <footer className="footer">
                     <h4 className="author">Fuente: {quote.author}</h4>
-                    <svg                        
+                    <svg 
+                    className="svg"                       
                         width="301"
                         height="118"
                         viewBox="0 0 301 118"
