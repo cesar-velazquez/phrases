@@ -37,6 +37,14 @@
 .bg4opt2 {
     background-image: url("/img/imgfondos/bg4opt2.png");
 }
+/* Nuevos fondos para opción 3 */
+.bg1opt3 {
+    background-image: url("/img/imgfondos/bg1opt3.jpg");
+}
+
+.bg2opt3 {
+    background-image: url("/img/imgfondos/bg2opt3.jpg");
+}
 
 .divchangeMode {
     display: flex;

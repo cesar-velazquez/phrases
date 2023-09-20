@@ -15,7 +15,7 @@ function App() {
   const [currentBg, setCurrentBg] = useState(getRandom(bgSpace))
 
   // estados para frases celebres
-  const [bgtruty, setBgtruty] = useState(bgTruty)
+  const [bgtruty, setBgtruty] = useState(getRandom(bgTruty))
   const [phrasesCelebres, setPhrasesCelebres] = useState(getRandom(quotesCelebres))
 
   const handleChangeMode = () => {
